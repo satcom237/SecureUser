@@ -1,0 +1,2 @@
+# Secure User Web-App
+Secure web application for entering, storing, and retrieving information about users of a sample website. Sign-In page asks for basic input such as username/password, name, email, etc. User passwords are salted then hashed using the MD5 algorithm before being stored into the database – rendering it less vulnerable to lookup attacks. Also employs parameterized queries effectively preventing SQL injection attacks. Implemented in MySQL, PHP, and HTML/CSS.
